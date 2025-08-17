@@ -35,7 +35,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "tiagolr";
     repo = finalAttrs.pname;
     rev = "${finalAttrs.version}";
-    sha256 = "";
+    sha256 = "sha256-frbTQc7KfrihUSq5Hx/pU73FnJfVBy4J9Ob1nbzj3s0=";
     fetchSubmodules = true; # JUCE plugins usually pull JUCE and other deps via submodules
   };
 
